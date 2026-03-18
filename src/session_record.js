@@ -267,7 +267,7 @@ class SessionRecord {
 
     closeSession(session) {
         if (this.isClosed(session)) {
-            console.warn("Session already closed", session);
+            console.warn("Session already closed");
             return;
         }
        // console.info("Closing session:", session);
